@@ -1,0 +1,78 @@
+.div {
+  position: relative;
+  width: 250px;
+  height: 400px;
+  top: 10px;
+
+  border: 1px;
+  /* background: #e1f2e0; */
+  border: 1px solid #d6d3d3;
+  background-image: linear-gradient(0deg, #eaffeb, rgb(255, 252, 252)),
+    linear-gradient(0deg, #d6d3d3, #d6d3d3);
+}
+.h1-menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.span {
+  color: rgba(70, 66, 66, 1);
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 20px;
+}
+.main-div-aside {
+  display: flex;
+  justify-content: space-between;
+
+  height: 798px;
+}
+
+.home-icon,
+.search-icon,
+.chat-icon,
+.notification-icon,
+.tag-icon,
+.communties-icon,
+.theme-icon,
+.profile-icon {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+
+  padding-left: 60px;
+}
+.home-icon:hover,
+.search-icon:hover,
+.search-icon:hover,
+.chat-icon:hover,
+.notification-icon:hover,
+.tag-icon:hover,
+.communties-icon:hover,
+.theme-icon:hover,
+.profile-icon:hover {
+  background-color: white;
+  border: 1px solid rgba(225, 221, 221, 1);
+}
+.change-heart {
+  color: red;
+}
+.like-button {
+  background: rgba(46, 125, 50, 0.1);
+  border-radius: 50%;
+  height: 42px;
+  border: none;
+}
+.comment-div {
+  display: flex;
+  gap: 10px;
+  background-color: lightgrey;
+  margin: 20px;
+}

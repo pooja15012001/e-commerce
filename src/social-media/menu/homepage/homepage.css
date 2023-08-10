@@ -1,0 +1,80 @@
+.trending-div {
+  display: flex;
+  justify-content: flex-end;
+}
+.span-class {
+  display: flex;
+  /* justify-content: space-between; */
+
+  gap: 20px;
+}
+.span-class-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.headinh-details {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(16, 23, 31, 1);
+  width: 418px;
+  height: 50px;
+}
+.button-follow {
+  border: 2px solid rgba(46, 125, 50, 1);
+  height: 31px;
+  border-radius: 4px;
+  color: black;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.image-div {
+  display: flex;
+  justify-content: flex-start;
+  gap: 22px;
+  margin-left: 112px;
+  margin-top: 30px;
+}
+.person-1 {
+  width: 331px;
+  height: 200px;
+  position: absolute;
+  left: 50px;
+  top: 218px;
+  border-radius: 10px;
+}
+.person-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 60px;
+}
+.person-post-div {
+  display: flex;
+}
+.icon-button {
+  background: rgba(46, 125, 50, 0.1);
+  border-radius: 50%;
+  height: 42px;
+  border: none;
+}
+.button-play,
+.button-voice {
+  top: 95px;
+  border: none;
+  background: none;
+  position: relative;
+
+  right: 200px;
+}
+.button-voice {
+  right: 93px;
+}
